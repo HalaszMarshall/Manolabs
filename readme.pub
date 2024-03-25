@@ -1,2 +1,6 @@
 logo title font - Geometry Soft Pro Bold N
 text font - ubuntu
+
+1. How to get manolabs.ro and manolabs.ro/index be exactly the same content
+2. To create a number of empry class divs, use " .*n " and enter while tooltip suggestion bar is active.
+3. In order to override a "justify-content" property for one item (ex. all navbar items moved to the right besides 1 item - manolabs) you can use "margin-right:auto" on the single item (in order to move it to the left).
