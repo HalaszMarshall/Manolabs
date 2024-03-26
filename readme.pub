@@ -4,3 +4,19 @@ text font - ubuntu
 1. How to get manolabs.ro and manolabs.ro/index be exactly the same content
 2. To create a number of empry class divs, use " .*n " and enter while tooltip suggestion bar is active.
 3. In order to override a "justify-content" property for one item (ex. all navbar items moved to the right besides 1 item - manolabs) you can use "margin-right:auto" on the single item (in order to move it to the left).
+4. Use (no . in css before it)"body{ margin:0;}" in order to remove default margin around divs.
+5. In order to adjust space between <ul><li> items, use, "ul.classname{line-height: 1.5;}"
+6. When using "rgba" DO NOT put a space between "rgba" and "()" as color picker will not appear and  it will not work
+ex. "background-image: linear-gradient(to top, rgba(0,0,0,0),  rgba(0,0,0,1));"
+7. In order to have a Flexbox element positioned Fixed (like a navbar) you need the following css:
+position: fixed;
+display: flex;
+top: 0;
+left: 0;
+right: 0;
+
+
+
+To do list:
+1.fit background image
+2.see if possible to scale container width based on inner text (so that we would not need a sepparate class for a wider containerex Hardware vs Firmware container on index page)
