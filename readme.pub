@@ -15,6 +15,17 @@ top: 0;
 left: 0;
 right: 0;
 
+8. In order to use the same CSS Class properties on different pages with specific elements changed on every page, Use the same class on all pages and a different ID for every page and in the CSS create the Common elements in the Class and the differences for each ID.
+
+ex. 
+.class{common elements for all pages}
+.class#page1{difference from common for page 1}
+.class#page2{difference from common for page 2}
+
+ex.
+body{body elements}
+body#index{background-image:1}
+body#about{background-image:2}
 
 
 To do list:

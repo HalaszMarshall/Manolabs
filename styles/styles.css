@@ -4,6 +4,39 @@
 
 body{
     margin: 0%;
+    background-color: rgb(15, 15, 15);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    background-size: cover;
+    object-fit: cover;
+    /* background: white url(/images/home.jpg)fixed no-repeat right top; */
+    /* backdrop-filter: blur(20px);
+    mask: linear-gradient(transparent, black 60%); */
+}
+
+body#index{    
+    background-image: url(/images/home.jpg);
+}
+
+body#about{
+    background-image: url(/images/about.jpg)
+}
+
+body#services{
+    background-image: url(/images/services.jpg)
+}
+
+body#contact{
+    background-image: url(/images/contact.jpg)
+}
+
+body#partners{
+    background-image: url(/images/partners.jpg)
+}
+
+body#join{
+    background-image: url(/images/join.jpg)
 }
 
 .test{
@@ -15,16 +48,15 @@ body{
     -webkit-text-stroke-color: black;
 }
 
-.index{
-    background-color: rgb(15, 15, 15);
-    background-image: url(/images/home.jpg);
+
+
+.about{ background-color: rgb(15, 15, 15);
+    background-image: url(/images/about.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh; 
     background-size: cover;
-    object-fit: cover;
-    /* background: white url(/images/home.jpg)fixed no-repeat right top; */
-}
+    object-fit: cover;}
 
 a{
     text-decoration: none;
