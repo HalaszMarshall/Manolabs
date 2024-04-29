@@ -27,7 +27,23 @@ body{body elements}
 body#index{background-image:1}
 body#about{background-image:2}
 
+9. In order to jump to a specific part of the page when opening it, add an ID to that part of the page and use that ID after the link address (open THIS link at THIS ID)
+ex. <a href="index.html#footer">
+
+10. In order to use Fontawesome icons, use this website for the stylesheet: https://cdnjs.com/libraries/font-awesome .
+Then you can take the tag fron the Fontawesome website and use it.
+
+11. To create a Glow around your element, use - box-shadow: 0 0 10px rgb(252, 236, 15, .9);
+box-shadow: 
+0 - shadow position left-right
+0 - shadow position up-down
+10px - shadow size
+rgb(252, 236, 15, .9) - shadow color and opacity
+
+12. If a background image file size is larger than the container, object-fit will not fit the image to the container, parts of it will disappear outside of cont. . You can add <img> tag inside <div class="containerProperties"><img src:"image"></div> and in CXX you will have to create the class .containerProperties img{} otherwise img will overflow other content.
+
 
 To do list:
 1.fit background image
 2.see if possible to scale container width based on inner text (so that we would not need a sepparate class for a wider containerex Hardware vs Firmware container on index page)
+3.footer hyperlinks - new page paragraph title hidden behind NavBar
